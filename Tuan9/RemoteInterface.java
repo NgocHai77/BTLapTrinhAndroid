@@ -1,4 +1,4 @@
-package tuan9;
+package Tuan9;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

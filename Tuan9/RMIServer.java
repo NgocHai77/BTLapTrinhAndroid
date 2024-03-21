@@ -1,4 +1,4 @@
-package tuan9;
+package Tuan9;
 
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
@@ -9,7 +9,7 @@ public class RMIServer {
             //khoi tao may chu
             LocateRegistry.createRegistry(1099);
             //tao doi tuong cua lop Remote
-            RemoteInterface obj=new RemoteInterfaceImp();
+            RemoteInterfaceImp obj=new RemoteInterfaceImp();
             //dang ky
             Naming.rebind("//localhost:1099/RemoteObject", obj);
             System.out.println("Server da san sang");

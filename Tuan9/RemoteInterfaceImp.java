@@ -1,4 +1,4 @@
-package tuan9;
+package Tuan9;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
